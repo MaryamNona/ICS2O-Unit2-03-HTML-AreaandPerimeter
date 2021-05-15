@@ -11,13 +11,13 @@ function addAgeClicked () {
 
   // input
   const length = parseInt(document.getElementById('length-of-rectangle').value)
-  const width = document.getElementById('width-of-rectangle').value
+  const width = parseInt(document.getElementById('width-of-rectangle').value)
 
   // process
   const area = length * width
   const perimeter = 2 * (length + width)
 
   // output
-document.getElementById('area').innerHTML = 'Area is: ' + length + ' x ' + width + ' = ' + '.'
-document.getElementById('perimeter').innerHTML = 'perimeter is: 2 x (' + length + ' + ' + width + ')' + ' = '
+  document.getElementById('area').innerHTML = 'Area is: ' + length + ' x ' + width + ' = '
+  document.getElementById('perimeter').innerHTML = 'Perimeter is 2 x (' + length + ' + ' + width + ' = '
 }
