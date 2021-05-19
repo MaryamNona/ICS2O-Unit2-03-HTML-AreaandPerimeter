@@ -18,6 +18,6 @@ function addAgeClicked () {
   const perimeter = 2 * (length + width)
 
   // output
-  document.getElementById('area').innerHTML = 'Area is: ' + length + ' x ' + width + ' = '
-  document.getElementById('perimeter').innerHTML = 'Perimeter is 2 x (' + length + ' + ' + width + ' = '
+  document.getElementById('area').innerHTML = 'Area is: ' + length + ' x ' + width + ' = ' + area + ' mm²'
+  document.getElementById('perimeter').innerHTML = 'Perimeter is 2 x (' + length + ' + ' + width +  ' ) = ' + perimeter + ' mm'
 }
